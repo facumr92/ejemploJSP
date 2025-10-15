@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 sep. 2025, 14:08:47
+    Author     : facundorubil
+*/
+
+
+    *{
+
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+
+    }   
+
+  body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 300px;
+            background-color: wheat;
+            padding: 1rem;
+        }
+        label {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+        }
+        input {
+            padding: .5rem;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            margin: .5rem;
+           
+        }
+        input[type="submit"] {
+            background: #333;
+            color: white;
+            cursor: pointer;
+        }
+        hr{
+            margin-bottom:1rem;
+            width: 400px;
+        }
+        
+        p{
+            font-size: 1rem;
+            padding: .5rem;
+        }
+        
